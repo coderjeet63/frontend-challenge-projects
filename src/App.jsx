@@ -1,17 +1,10 @@
 import React from 'react'
-// import First from './components/First.jsx'
-// import Second from './components/Second.jsx'
-// import Third from './components/Third.jsx'
-// import Portfolio from './components/Portfolio'
 import Calculator from './components/Calculator.jsx'
+import { Route , Routes } from 'react-router-dom'
 export default function App() {
   return (
-    <div>
-      {/* <First /> */}
-      {/* <Second /> */}
-      {/* <Third /> */}
-      {/* <Portfolio /> */}
-      <Calculator />
-    </div>
+      <Routes>
+        <Route path="/calculator" element={<Calculator />} />
+      </Routes>
   )
 }
