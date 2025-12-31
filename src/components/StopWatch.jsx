@@ -19,7 +19,7 @@ function StopWatch() {
     return () => clearInterval(intervalId)
   }, [running])
 
-  // ✅ second → minute
+  
   useEffect(() => {
     if (sec === 60) {
       setSec(0)
@@ -27,7 +27,7 @@ function StopWatch() {
     }
   }, [sec])
 
-  // ✅ minute → hour
+  
   useEffect(() => {
     if (min === 60) {
       setMin(0)
