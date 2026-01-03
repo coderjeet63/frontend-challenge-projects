@@ -1,0 +1,38 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #000; /* safe default */
+}
+
+
+:root{
+    --padding-mobile: 10px;
+    --padding-desktop: 60px;
+    
+}
+
+.main-netflix {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, red, black);
+}
+
+
+
+@media (max-width: 768px) {
+    .global-padding {
+        padding-left: var(--padding-mobile);
+        padding-right: var(--padding-mobile);
+       
+    }
+}
+
+@media (min-width: 769px) {
+    .global-padding {
+        padding-left: var(--padding-desktop);
+        padding-right: var(--padding-desktop);
+        
+    }
+}
