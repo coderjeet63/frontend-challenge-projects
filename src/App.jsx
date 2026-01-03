@@ -7,7 +7,7 @@ import Captchgenratore from './components/Captchgenratore.jsx'
 import SliderImages from './components/SliderImages.jsx'
 import QuizApplication from './components/QuizApplication.jsx'
 import NetflixClone from './cssChallenge/NetflixClone.jsx'
-
+import ToDo from './components/ToDo.jsx'
 
 export default function App()
  {
@@ -20,7 +20,7 @@ export default function App()
         <Route path="/slider-images" element={<SliderImages />} />
         <Route path="/quiz" element={<QuizApplication />} />
         <Route path="/netflix-clone" element={<NetflixClone />} />
-
+        <Route path ="/to-do" element = {<ToDo/>} />
       </Routes>
   )
 }
