@@ -6,8 +6,9 @@ import StopWatch from './components/StopWatch.jsx'
 import Captchgenratore from './components/Captchgenratore.jsx'
 import SliderImages from './components/SliderImages.jsx'
 import QuizApplication from './components/QuizApplication.jsx'
-import NetflixClone from './cssChallenge/NetflixClone.jsx'
+import NetflixClone from './NetflixComponents/NetflixClone.jsx'
 import ToDo from './components/ToDo.jsx'
+import TicTacToe from './TicTacToeComponents/TicTacToe.jsx'
 
 export default function App()
  {
@@ -21,6 +22,8 @@ export default function App()
         <Route path="/quiz" element={<QuizApplication />} />
         <Route path="/netflix-clone" element={<NetflixClone />} />
         <Route path ="/to-do" element = {<ToDo/>} />
+        <Route path="/TicTacToe" element={<TicTacToe />} />
+
       </Routes>
   )
 }

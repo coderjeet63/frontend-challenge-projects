@@ -1,10 +1,10 @@
 import React from 'react'
-import './Netflix.css'
-import Navbar from '../NetflixComponents/Navbar'
-import Main from '../NetflixComponents/Main'
-import Card from '../NetflixComponents/Card'  
-import ReasonsToJoin from '../NetflixComponents/ReasonsToJoin.jsx'
-import FAQ from '../NetflixComponents/FAQ.jsx'
+import '../cssChallenge/Netflix.css'
+import Navbar from './Navbar'
+import Main from './Main'
+import Card from './Card'  
+import ReasonsToJoin from './ReasonsToJoin.jsx'
+import FAQ from './FAQ.jsx'
 
 function NetflixClone() {
   return (
